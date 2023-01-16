@@ -1,0 +1,17 @@
+#%RAML 1.0
+title: product-sapi
+/products:
+  get:
+    responses:
+      200:
+        body:
+          application/json:
+           
+            example:
+                  {
+                    "productName": "Dell",
+                    "productMod": "Inspiron",
+                    "OS": "Windows",
+                    "productPrice": 1000
+                  }
+              
